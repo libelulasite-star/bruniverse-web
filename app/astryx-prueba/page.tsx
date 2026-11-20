@@ -41,7 +41,7 @@ export default function AstryxPrueba() {
               <VStack gap={1}>
                 <Heading level={2}>Prueba de Astryx</Heading>
                 <Text type="body" color="secondary" size="sm">
-                  Card, TextInput, Switch y Button con el tema neutral.
+                  Card, TextInput, Switch y Button con el tema BRUNIVERSE.
                 </Text>
               </VStack>
             </LayoutHeader>

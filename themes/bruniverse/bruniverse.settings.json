@@ -1,0 +1,156 @@
+{
+  "name": "bruniverse",
+  "like": "neutral",
+  "mode": "both",
+  "settings": [
+    {
+      "thing": "neutral",
+      "value": "#56635B",
+      "source": "dial"
+    },
+    {
+      "thing": "accent",
+      "value": "#F2B33D",
+      "source": "dial"
+    },
+    {
+      "thing": "corners",
+      "value": "round",
+      "source": "dial"
+    },
+    {
+      "thing": "font",
+      "value": "\"Libre Franklin\", \"Franklin Gothic Medium\", Arial, sans-serif",
+      "source": "dial"
+    },
+    {
+      "thing": "font",
+      "value": "\"Big Shoulders Display\", \"Barlow Condensed\", \"Arial Narrow\", sans-serif",
+      "source": "dial",
+      "on": "heading"
+    },
+    {
+      "thing": "headings",
+      "value": "bold",
+      "source": "dial",
+      "axis": "weight"
+    },
+    {
+      "thing": "type",
+      "value": "display",
+      "source": "dial"
+    },
+    {
+      "thing": "text-size",
+      "value": "larger",
+      "source": "dial"
+    },
+    {
+      "thing": "--color-background-body",
+      "value": "#EEF0E6",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "--color-background-body",
+      "value": "#07140F",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-background-surface",
+      "value": "#0E2A21",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-background-card",
+      "value": "#163A2E",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-background-popover",
+      "value": "#163A2E",
+      "source": "token",
+      "mode": "dark",
+      "note": "no part of this Core reads --color-background-popover, and no token it feeds is read, so it changes nothing you see now; it is set as asked because a dial writes it too"
+    },
+    {
+      "thing": "--color-background-muted",
+      "value": "#163A2E",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-background-surface",
+      "value": "#F8F9F3",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "text-transform",
+      "value": "uppercase",
+      "source": "property",
+      "on": "heading",
+      "when": "level:1"
+    },
+    {
+      "thing": "text-transform",
+      "value": "uppercase",
+      "source": "property",
+      "on": "heading",
+      "when": "level:2"
+    },
+    {
+      "thing": "line-height",
+      "value": "1",
+      "source": "property",
+      "on": "heading"
+    },
+    {
+      "thing": "font-family",
+      "value": "\"Libre Franklin\", \"Franklin Gothic Medium\", Arial, sans-serif",
+      "source": "property",
+      "on": "heading",
+      "when": "level:3"
+    },
+    {
+      "thing": "line-height",
+      "value": "1.25",
+      "source": "property",
+      "on": "heading",
+      "when": "level:3"
+    },
+    {
+      "thing": "font-family",
+      "value": "\"Libre Franklin\", \"Franklin Gothic Medium\", Arial, sans-serif",
+      "source": "property",
+      "on": "heading",
+      "when": "level:4"
+    },
+    {
+      "thing": "line-height",
+      "value": "1.25",
+      "source": "property",
+      "on": "heading",
+      "when": "level:4"
+    },
+    {
+      "thing": "background-color",
+      "value": "rgba(7, 20, 15, 0.5)",
+      "source": "property",
+      "on": "overlay-scrim"
+    }
+  ],
+  "lifted": [
+    "heading level:1 line-height",
+    "heading level:2 line-height",
+    "heading level:5 line-height",
+    "heading level:6 line-height",
+    "heading type:display-1 line-height",
+    "heading type:display-2 line-height",
+    "heading type:display-3 line-height"
+  ],
+  "palette": "9f8a40ac1d65ee44f1d8b7d15e9671742c2791f0539c28d16379fb7f33d541ce"
+}

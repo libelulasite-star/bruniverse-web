@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# vistas previas del editor de temas (se regeneran)
+/themes/*/preview*
+/themes/*/sheet*
